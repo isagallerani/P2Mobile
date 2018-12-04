@@ -5,11 +5,10 @@ import java.io.Serializable
 data class Meal(
             val idMeal:         String,
             val strMeal:        String,
-            val strVideo:       String,
             val strCategory:    String,
             val strArea:        String,
-            val strInstructions:String,
-            val strMealThumb:  String,
+            val strInstructions: String,
+            val strMealThumb:   String,
             val strIngredient1: String,
             val strIngredient2: String,
             val strIngredient3: String,
@@ -44,5 +43,11 @@ data class Meal(
             val strMeasure12:   String,
             val strMeasure13:   String,
             val strMeasure14:   String,
-            val strMeasure15:   String
+            val strMeasure15:   String,
+            val strMeasure16:   String,
+            val strMeasure17:   String,
+            val strMeasure18:   String,
+            val strMeasure19:   String,
+            val strMeasure20:   String
+
     ): Serializable

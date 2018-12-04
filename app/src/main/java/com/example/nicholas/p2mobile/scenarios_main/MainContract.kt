@@ -7,13 +7,16 @@ interface MainContract {
 
         interface View{
             fun showMessage(msg: String)
-            fun showList(articles: List<Meal>)
+            fun showList(meals: List<Meal>)
             fun showLoading()
             fun hideLoading()
+            fun listInDetail(meal: Meal)
         }
 
         interface Presenter {
             fun onLoadList()
+            fun onClickMeal(meal: Meal)
+            fun RandomMeal()
         }
 
 }

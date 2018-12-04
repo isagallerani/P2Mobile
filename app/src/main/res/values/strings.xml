@@ -1,5 +1,8 @@
 <resources>
-    <string name="app_name">P2Mobile</string>
-
+    <string name="app_name">Meals App</string>
+    <string name="mealName">Meal Name</string>
     <string name="img_meals">Meals</string>
+    <string name="ingredients">Ingredients</string>
+    <string name="quantity">Quantity</string>
+
 </resources>
